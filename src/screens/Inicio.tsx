@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import fotoEdwin from '/src/assets/Foto.png'
 
 const Dashboard = () => {
   const { t } = useTranslation();
@@ -15,7 +16,7 @@ const Dashboard = () => {
         <section className=' flex items-center justify-center h-full w-1/2 relative'>
           <img
             className='mx-auto absolute inset-0' 
-            src='src\assets\Foto.png' 
+            src={fotoEdwin}
           />
         </section>
     </section>

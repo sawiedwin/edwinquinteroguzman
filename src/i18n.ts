@@ -11,7 +11,7 @@ i18n.use(initReactI18next).init({
     en: {
       translation: {
         title: 'Multi-language app',
-        parrafoinicio:'Software engineer',
+        parrafoinicio:'Software engineer.',
         parrafoiniciodos:'Here you will find information about my profile, my work experiences, my studies, my projects and how to contact me.',
         parrafoperfil:'My profile',
         parrafoperfildos:'About me',
@@ -42,7 +42,7 @@ i18n.use(initReactI18next).init({
     es: {
       translation: {
         title: 'Aplicación en varios idiomas',
-        parrafoinicio:'Ingeniero de Software',
+        parrafoinicio:'Ingeniero de Software.',
         parrafoiniciodos: 'Aquí encontrarás información sobre mi perfil, mis experiencias laborales, mis estudios, mis proyectos y cómo contactarme.',
         parrafoperfil:'Mi perfil',
         parrafoperfildos:'Acerca de mi',
