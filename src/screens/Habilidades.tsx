@@ -26,7 +26,7 @@ const Habilidades = () => {
   );
 };
 
-const SkillIcon = ({ icon, text }) => {
+const SkillIcon = ({ icon, text }: { icon: React.ReactNode, text: string }) => {
   return (
     <div className="flex flex-col items-center">
       {icon}
