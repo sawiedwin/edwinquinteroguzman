@@ -17,7 +17,7 @@ const Habilidades = () => {
     backgroundColor: 'rgba(255)' 
   };
   return (
-    <section style={sectionStyle} className='flex flex-col items-center justify-center h-full space-y-4 bg-cover bg-center bg-opacity-75' style={{ backgroundImage: 'url("src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")' }}>
+    <section style={sectionStyle} className='flex flex-col items-center justify-center h-full space-y-4 bg-cover bg-center bg-opacity-75'>
       <h1 className='text-red-500 text-4xl md:text-6xl font-semibold mb-4'>{t('parrafohabil')}</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <SkillIcon icon={<FaPython size={100} color={iconColor} />} text="Python" />
