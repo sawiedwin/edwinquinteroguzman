@@ -6,6 +6,7 @@ import { FaGithub } from 'react-icons/fa6';
 const backgroundImageUrl = 'url("src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
 
 const Habilidades = () => {
+  
   const {t} = useTranslation();
 
   const iconColor = '#f6403d';
@@ -13,7 +14,7 @@ const Habilidades = () => {
     backgroundImage: backgroundImageUrl,
     backgroundSize: 'cover',
     height: '100vh',
-    background: 'rgba(0, 0, 0, 0.75) url("src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg") center/cover no-repeat',
+    background: 'url("src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg") center/cover no-repeat',
   };
   return (
     <section style={sectionStyle} className='flex flex-col items-center justify-center h-full space-y-4'>
