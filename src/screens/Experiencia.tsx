@@ -1,5 +1,8 @@
 import { useTranslation } from "react-i18next";
-const backgroundImageUrl = 'url("src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
+const backgroundImageUrl = 'url("/src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
+// import fondo from 'src\assets\alto-angulo-red-comunicacion-internet-espacio-copia.jpg'
+import fotomario from '/src/assets/maionet.jpg'
+import fotoucc from '/src/assets/ucc.jpg'
 const Experiencia = () => {
   const {t} = useTranslation();
   return (
@@ -18,7 +21,7 @@ const Experiencia = () => {
             <p className="text-lg md:text-xl text-center font-semibold mb-4">{t('parrafoexp')}</p>
             <p className="text-lg md:text-xl text-center font-semibold mb-4">{t('parrafoexpdos')}</p>
             <p className="text-lg md:text-xl text-center font-semibold mb-4">{t('parrafoexptres')}</p>          
-            <img className="w-full mb-4" src="src\assets\maionet.jpg" alt="Universidad Cooperativa de Colombia" />
+            <img className="w-full mb-4" src={fotomario} alt="Universidad Cooperativa de Colombia" />
             <a
               href="https://www.facebook.com/mario.bedoya.982?locale=es_LA"
               target="_blank"
@@ -35,7 +38,7 @@ const Experiencia = () => {
             <p className="text-lg md:text-xl text-center font-semibold mb-4">{t('parrafoexpcinco')}</p>
             <p className="text-lg md:text-xl text-center font-semibold mb-4">{t('parrafoexpseis')}</p>
             <p className="text-lg md:text-xl text-center font-semibold mb-4">{t('parrafoexpsiete')}</p>          
-            <img className="w-full mb-4" src="src\assets\ucc.jpg" alt="Universidad Cooperativa de Colombia" />
+            <img className="w-full mb-4" src={fotoucc} alt="Universidad Cooperativa de Colombia" />
             <a
               href="https://ucc.edu.co/"
               target="_blank"

@@ -1,10 +1,11 @@
 import { useTranslation } from "react-i18next";
-const backgroundImageUrl = 'url("src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
+const backgroundImageUrl = 'url("/src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
 const miPerfil = () => {
   const { t } = useTranslation();
   return (
-    <div className='h-screen flex flex-col md:flex-row' style={{ backgroundImage: backgroundImageUrl, backgroundSize: 'cover' }}>
-      {/* Sección 1 */}
+    <div className='h-screen flex flex-col md:flex-row' style={{
+       backgroundImage: backgroundImageUrl, 
+       backgroundSize: 'cover' }}>
       <section className='md:flex-1 flex-col items-center justify-center text-center h-full w-full md:w-1/2 p-6 bg-opacity-75 bg-gray-200'>
         <div className='flex flex-col items-center justify-center h-full'>
           <h1 className='text-2xl md:text-4xl lg:text-6xl font-bold text-app-gray-500 font-roboto mb-4'>{t('parrafoperfil')}</h1>
@@ -17,7 +18,6 @@ const miPerfil = () => {
         </div>
       </section>
   
-      {/* Sección 2 */}
       <section className='md:flex-1 flex-col items-center justify-center text-center h-full w-full md:w-1/2 p-6 bg-opacity-75 bg-gray-300'>
         <div className='flex flex-col items-center justify-center h-full'>
           <h1 className='text-2xl md:text-4xl lg:text-6xl font-bold text-app-gray-500 font-roboto mb-4'>{t('parrafoperfilcuatro')}</h1>

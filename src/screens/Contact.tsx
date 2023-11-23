@@ -1,6 +1,6 @@
 import { FaLinkedin, FaWhatsapp, FaFacebook } from 'react-icons/fa'; 
 import { useTranslation } from 'react-i18next';
-const backgroundImageUrl = 'url("src/assets/4302864.jpg")';
+const backgroundImageUrl = 'url("/src/assets/4302864.jpg")';
 
 const Contact = () => {
   const {t} = useTranslation();
