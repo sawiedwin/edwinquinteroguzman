@@ -1,5 +1,7 @@
 import { FaLinkedin, FaWhatsapp, FaFacebook } from 'react-icons/fa'; 
 import { useTranslation } from 'react-i18next';
+const backgroundImageUrl = 'url("src/assets/4302864.jpg")';
+
 const Contact = () => {
   const {t} = useTranslation();
 return (
@@ -9,7 +11,7 @@ return (
         className='flex flex-row items-center order-2 justify-center h-full relative'
         style={{
           height:'100%',
-          background: `url('src/assets/4302864.jpg')`,
+          background: backgroundImageUrl,
           backgroundSize: 'cover',
           backgroundPosition: 'center', 
           

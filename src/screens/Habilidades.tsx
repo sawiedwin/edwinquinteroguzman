@@ -1,8 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { FaPython, FaJava, FaJs, FaAngular, FaReact, FaFigma, FaCss3Alt } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa6';
-
-
 const backgroundImageUrl = 'url("src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
 
 const Habilidades = () => {
@@ -14,7 +12,6 @@ const Habilidades = () => {
     backgroundImage: backgroundImageUrl,
     backgroundSize: 'cover',
     height: '100vh',
-    background: 'url("src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg") center/cover no-repeat',
     backgroundPosition: 'center',
   };
   return (
