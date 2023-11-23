@@ -12,7 +12,6 @@ const Habilidades = () => {
   const sectionStyle = {
     backgroundImage: backgroundImageUrl,
     backgroundSize: 'cover',
-    backgroundPosition: 'center',
     height: '100vh',
     background: 'rgba(0, 0, 0, 0.75) url("src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg") center/cover no-repeat',
   };
