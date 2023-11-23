@@ -1,20 +1,24 @@
 import { useTranslation } from "react-i18next";
-const backgroundImageUrl = 'url("/src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
-// import fondo from 'src\assets\alto-angulo-red-comunicacion-internet-espacio-copia.jpg'
 import fotomario from '/src/assets/maionet.jpg'
 import fotoucc from '/src/assets/ucc.jpg'
+
 const Experiencia = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
+
+  const backgroundImageUrl = 'url("/src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
+
   return (
     <div
-      className="min-h-screen flex items-center justify-center "
-      style={{ 
-        backgroundImage: backgroundImageUrl, 
-        backgroundSize: 'cover', 
-        backgroundColor: 'rgba(255)' 
+      style={{
+        minHeight: '100vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundImage: backgroundImageUrl,
+        backgroundSize: 'cover',
+        backgroundColor: 'rgba(255, 255, 255, 0.75)',
       }}
     >
-
       <div className="flex flex-col md:flex-row space-x-0 md:space-x-8">
         <div className="bg-gray-300 p-8 rounded-lg shadow-lg bg-opacity-75 mb-4 md:mb-0">
           <div className="max-w-md mx-auto">

@@ -42,7 +42,7 @@ return (
           </section>
 
 
-          </section> {/* aqui termina la section de el lado derecho*/}
+          </section>
 
             <section className="bg-white dark:bg-gray-900 h-screen flex md:order-2 items-center justify-center">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md flex flex-col items-center">
