@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 const backgroundImageUrl = 'url("/src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
-import fotoEdwin from '/src/assets/Foto.png';
 
 const miPerfil = () => {
   const { t } = useTranslation();
@@ -27,9 +26,6 @@ const miPerfil = () => {
           <p className='text-sm md:text-lg lg:text-2xl'>{t('parrafoperfilseis')}</p>
         </div>
       </section>
-      <section className='flex items-center justify-center h-full w-full md:w-1/2 relative'>
-            <img className='mx-auto h-auto md:h-full' src={fotoEdwin} alt='Foto de Edwin' />
-          </section>
     </div>
   );
 };
