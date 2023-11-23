@@ -17,7 +17,7 @@ const Habilidades = () => {
   return (
     <section style={sectionStyle} className='flex flex-col items-center justify-center h-full space-y-4'>
       <h1 className='text-red-500 text-4xl font-semibold mb-4'>{t('parrafohabil')}</h1>
-      <div className="flex space-x-4">
+      <div className="flex flex-wrap justify-center">
         <SkillIcon icon={<FaPython size={100} color={iconColor} />} text="Python" />
         <SkillIcon icon={<FaJava size={100} color={iconColor} />} text="Java" />
         <SkillIcon icon={<FaJs size={100} color={iconColor} />} text="JavaScript" />
@@ -33,9 +33,9 @@ const Habilidades = () => {
 
 const SkillIcon = ({ icon, text }: { icon: React.ReactNode, text: string }) => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-1/2 md:w-1/4 lg:w-1/8 p-2">
       {icon}
-      <p className="text-lg text-red-500 font-roboto font-semibold">{text}</p>
+      <p className="text-lg text-red-500 font-roboto font-semibold text-center mt-2">{text}</p>
     </div>
   );
 };
