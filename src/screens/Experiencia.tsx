@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 import fotomario from '/src/assets/maionet.jpg'
 import fotoucc from '/src/assets/ucc.jpg'
+import backgroundImageUrl from "/src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg";
 
 const Experiencia = () => {
   const { t } = useTranslation();
 
-  const backgroundImageUrl = 'url("/src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg")';
 
   return (
     <div
@@ -14,7 +14,7 @@ const Experiencia = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundImage: backgroundImageUrl,
+        backgroundImage: `url(${backgroundImageUrl})`,
         backgroundSize: 'cover',
         backgroundColor: 'rgba(255, 255, 255, 0.75)',
       }}
