@@ -1,13 +1,15 @@
 import { useTranslation } from "react-i18next";
 import backgroundImageUrl from "/src/assets/alto-angulo-red-comunicacion-internet-espacio-copia.jpg";
+import { Link } from "react-router-dom";
 // import fotoEdwin from "/src/assets/Foto.png";
 
 const miPerfil = () => {
+  const CV = 'https://drive.google.com/file/d/11y_YMGcQBWYMIuC-YU-fsGNbaeXMOZ_e/view'
   const { t } = useTranslation();
 
   return (
     <div
-      className="min-h-screen flex flex-col md:flex-row"
+      className="h-full flex flex-col md:flex-row"
       style={{
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundSize: "cover",
@@ -24,6 +26,7 @@ const miPerfil = () => {
           <p className="text-sm md:text-lg lg:text-2xl">
             {t('parrafoperfiltres')}
           </p>
+          <Link to={CV}>
           <button className="bg-red-500 hover:bg-gray-400 text-white font-bold py-2 px-5 rounded-full inline-flex items-center mt-4">
             <svg
               className="fill-current w-4 h-4 md:w-6 md:h-6 lg:w-8 lg:h-8 mr-2"
@@ -36,6 +39,7 @@ const miPerfil = () => {
               {t('parrafoperfilsiete')}
             </span>
           </button>
+          </Link>
         </div>
       </section>
 
