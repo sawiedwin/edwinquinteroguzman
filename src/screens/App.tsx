@@ -13,7 +13,7 @@ import Habilidades from './Habilidades';
 
 function App() {
   return (
-    <main className='flex flex-row-[1fr_50px] w-screen h-screen bg-app-white font-roboto'>
+    <main className='flex md:flex-row flex-col w-screen h-screen bg-app-white font-roboto'>
 
       <section className='flex-1 grid grid-rows-[60px_1fr_50px]'>
         <Header />

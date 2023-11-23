@@ -37,6 +37,7 @@ i18n.use(initReactI18next).init({
         parrafocontacsiete:'Your message',
         parrafocontacocho:'Enter your message...',
         parrafocontacnueve:'Send',
+        parrafohabil:'Habilities',
       },
     },
     es: {
@@ -68,6 +69,7 @@ i18n.use(initReactI18next).init({
         parrafocontacsiete:'Tu mensaje',
         parrafocontacocho:'Ingresa tu mansaje...',
         parrafocontacnueve:'Enviar',
+        parrafohabil:'Habilidades',
 
       },
     },
